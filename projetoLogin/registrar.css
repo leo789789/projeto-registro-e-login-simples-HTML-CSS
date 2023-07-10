@@ -1,0 +1,109 @@
+/* BOX DE REGISTRO*/
+.box{
+    width: 220px;
+    height: 240px;
+    background-image : linear-gradient(to right, rgb(36, 30, 129), rgb(52, 31, 109) );
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-left: 42%;
+    }
+/*-----------------------------------------------------------------------------------------------*/
+  /* HEADER & MENU */
+#menu{
+    list-style-type: none; 
+    padding: 0;
+    list-style: none;
+    margin-top: -40px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    word-spacing: 20px;
+}
+#menu li{                            /* Lista do menu que contém o header */
+    display: inline;
+    word-spacing: 20px;
+}
+
+#menu  :hover{
+    color: black;
+     }
+
+.header {
+    background-color: rgb(52, 31, 119);
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/*---------------------------------------------------------------------*/
+
+/* INPUT E LABEL DE DENTRO DA BOX */
+.input {
+    margin-top:20px;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+
+.labelInput{
+    position: absolute;
+    margin-top: -25px;
+    pointer-events: none;
+    transition: 0.5s;
+    
+}
+
+.input:focus ~ .labelInput,
+.input:valid ~ .labelInput{
+        font-size: 12px;
+        top: -20px;
+        color: blue;
+}
+/*----------------------------------------------------------------------*/
+/* BOTÃO */
+#submit {
+    margin-top: -15px;
+    background-image: linear-gradient(to right, rgb(43, 21, 105), rgb(120, 16, 240));
+    width: 100%;
+    border-radius: 8px;
+    padding: 9px;
+    font-size: 20px;
+    color: white;
+    outline: auto;
+    cursor: pointer;  
+    border-style: inherit;
+    border: none; 
+    
+    
+}
+
+#submit:hover{
+
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+.labelSubmit{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+fieldset {
+        margin-left: 5px;
+        width: 175px;
+        height: 205px;
+        border-radius: 30px;
+        font-size: 20px;
+}
+
+legend{
+    text-align:center;
+    color: white;
+}

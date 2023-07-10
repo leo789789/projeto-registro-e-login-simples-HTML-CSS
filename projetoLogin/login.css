@@ -1,0 +1,94 @@
+  /* HEADER & MENU */
+  #menu{
+    list-style-type: none; 
+    padding: 0;
+    list-style: none;
+    margin-top: -40px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    word-spacing: 20px;
+}
+#menu li{                            /* Lista do menu que contém o header */
+    display: inline;
+    word-spacing: 20px;
+}
+
+#menu  :hover{
+
+    color: black;
+     
+}
+
+.header {
+    background-color: rgb(52, 31, 119);
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/* BOX DE LOGIN*/
+/*-----------------------------------------------------------------------------------------------*/
+.box{
+    width: 220px;
+    height: 240px;
+    background-image : linear-gradient(to right, rgb(36, 30, 129), rgb(52, 31, 109) );
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-left: 42%;
+    }
+
+    fieldset{
+        
+        margin-left: 5px;
+        width: 175px;
+        height: 205px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    legend {
+        text-align: center;
+        color: white;
+    }
+
+    .inputLogin{
+        margin-left: 25px;
+        padding: 5px;
+        margin-top: -150px;
+        width: 150px;
+        height: 10px;
+         }
+
+    .labelLogin{
+        display: flex;
+        position: absolute;
+        margin-top: -45px;
+        pointer-events: none;
+        transition: 0.5s;
+        margin-left: 85px;
+        color: white;
+        
+    } 
+    /* BOTÃO LOGIN*/
+    /*------------------------------------------------------------------------------------------*/
+
+    .buttonLogin{
+        margin-top: 25px;
+        margin-left: 33px;
+        height: 40px;
+        width: 150px;
+        background-image: linear-gradient(to right, rgb(43, 21, 105), rgb(120, 16, 240));
+        border-radius: 8px;
+        border: 3px solid  white;
+        color: white;
+        font-size: 17px;
+        padding: 9px;
+    }
+
+    .buttonLogin:hover{
+        background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+        cursor: pointer;
+      }
